@@ -17,5 +17,7 @@ If you have any questions about setting up or using this integration feel free t
 #### If you have improvements or fixes, please fork the repository and submit a pull request. Here’s how you can contribute:
 - Fork this repo
 - Make any changes you want
-- Submit a pull request 
+- Submit a pull request
+
+- :) drop a star if it helped 
 
