@@ -61,7 +61,7 @@ class ChapaController extends Controller
     }
    
     $data = $request->all();
-    // do sth with the response object you receive for eg: updating a payment status in your db
+    // do sth with the request object  for eg: updating a payment status in your db
 
     return response()->json(['status' => 'success'], 200);
   }
