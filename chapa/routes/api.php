@@ -9,4 +9,4 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 Route::post('/initialize',[ChapaController::class, 'initializeTransaction']);
 
-Route::get('/webhook',[ChapaController::class, 'handleWebhook']);
+Route::post('/webhook',[ChapaController::class, 'handleWebhook']);
