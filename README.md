@@ -9,7 +9,7 @@
 - For Local Development: Download and install ngrok from https://ngrok.com/.
 - Run ngrok to tunnel to your application's port (commonly 8000 for Laravel apps): ngrok http 8000
 - Copy the generated ngrok URL (e.g., https://your-ngrok-subdomain.ngrok.io).
-- In the Chapa Dashboard's Webhook section set the ngrok URL as the webhook URL followed by /webhook (e.g., https://your-ngrok-subdomain.ngrok.io/webhook).
+- In the Chapa Dashboard's Webhook section set the ngrok URL as the webhook URL followed by /webhook or yourwebhook handler route endpoint (e.g., https://your-ngrok-subdomain.ngrok.io/webhook).
 - then your're good to go 
 ### Questions
 If you have any questions about setting up or using this integration feel free to reach out via email at kalebalebachew4@gmail.com.
